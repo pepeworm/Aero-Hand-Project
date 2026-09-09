@@ -208,6 +208,54 @@ a {
         color: rgba(255, 255, 255, 0.85);
         line-height: 1.5;
     }
+
+    .credits {
+        max-width: 46rem;
+        margin: 3rem auto 0;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .credits-lab {
+        margin: 0 0 1.4rem;
+        font-size: 1.15rem;
+        font-weight: 500;
+        color: $textAccent;
+
+        .credits-abbr {
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.55);
+        }
+    }
+
+    .credits-people {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem 2.75rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        .credits-role {
+            font-size: 0.78rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .credits-name {
+            font-size: 1rem;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.9);
+        }
+    }
 }
 
 // ---------------------------------------------------------------------------
